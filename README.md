@@ -1,6 +1,6 @@
 [![](https://img.shields.io/pypi/pyversions/dict.svg?maxAge=86400)](https://pypi.org/pypi/dict/)
 [![](https://img.shields.io/pypi/v/dict.svg?maxAge=86400)](https://pypi.org/pypi/dict/)
-[![](https://img.shields.io/badge/libraries.io-dict-green.svg)](https://libraries.io/pypi/dict)
+[![](https://img.shields.io/badge/libraries.io-dict-green.svg?maxAge=86400)](https://libraries.io/pypi/dict)
 
 [![CodeFactor](https://www.codefactor.io/repository/github/looking-for-a-job/dict.py/badge)](https://www.codefactor.io/repository/github/looking-for-a-job/dict.py)
 [![CodeClimate](https://codeclimate.com/github/looking-for-a-job/dict.py/badges/gpa.svg)](https://codeclimate.com/github/looking-for-a-job/dict.py)
@@ -15,11 +15,13 @@
 [![Travis](https://api.travis-ci.org/looking-for-a-job/dict.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/dict.py/)
 
 ### Install
+
 ```bash
-[sudo] pip install dict
+$ [sudo] pip install dict
 ```
 
 ### Features
+
 
 *	**attribute-style access**
 * 	**None** instead of **KeyError**
@@ -27,11 +29,13 @@
 * 	jQuery like **methods chaining**
 
 ### Usage
+
 ```python
 >>> from dict import dict
 ```
 
 ### Examples
+
 ```python
 >>> dict(k="v")["k"]
 "v"
@@ -49,4 +53,5 @@ None
 ```
 
 ### Sources
+
 +   [`dict.dict(dict)`](https://github.com/looking-for-a-job/dict.py/blob/master/dict/__init__.py)
